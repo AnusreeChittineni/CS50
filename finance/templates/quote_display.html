@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote Display
+{% endblock %}
+
+{% block main %}
+    <form action="/quote_display" method="get">
+        <div class="form-group">
+            <p>
+                QUOTE<br>
+                Name: {{ displayquote.name }}<br>
+                Symbol: {{ displayquote.symbol }}<br>
+                Price: {{ displayquote.price | usd }}<br>
+            </p>
+        </div>
+    </form>
+{% endblock %}
