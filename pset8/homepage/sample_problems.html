@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Sample Problems</title>
+        <style>
+          a:hover {background-color: white;}
+        </style>
+    </head>
+    <script>
+    	function Answers()
+    	{
+          	var x = document.getElementsByClassName("answers");
+          	var y = document.getElementsByClassName("answers").length;
+          	for (i = 0; i < y; i++)
+          	{
+          	if (x[i].style.display === "none")
+          	{
+                x[i].style.display = "block";
+          	}
+            else
+          	{
+                x[i].style.display = "none";
+          	}
+          	}
+        }
+    </script>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" style="color:red;" href="/index.html">Home</a>
+                    <a class="nav-item nav-link" style="color:red;" href="/competition_schedule.html">Competition Schedule</a>
+                    <a class="nav-item nav-link" style="color:red;" href="/rules.html">Rules</a>
+                    <a class="nav-item nav-link" style="color:red;" href="/sample_problems.html">Sample Problems</a>
+                    <a class="nav-item nav-link" style="color:red;" href="/contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <h1 class="text-center">
+            Sample Problems
+        </h1>
+        <h2>
+            Algebra 1
+        </h2>
+        <p>
+            1. Let A be the 4th multiple of 3 greater than 10. Let B be the 5th multiple of 4 greater than A.
+            Let C be the 8th multiple of 6 greater than B. Compute C. [Subcategory- Evaluations]
+        </p>
+        <p>
+            2. Compute the minimum positive integer k for which 6k has more than 10 factors. [Subcategory- Factoring and its applications]
+        </p>
+        <p>
+            3. Given: a:b = 7:10, b:c = 4:5 Compute <sup>(a+c)</sup>&frasl;<sub>(b+c)</sub>. [Subcategory- Algebra 1: Ratio, Proportion or Variation]
+        </p>
+        <p>
+            4. A car travels 240 miles in a certain number of hours. If the rate of the car is increased by 18 mph,
+            the trip will take three less hours. Compute this faster rate that will shorten the time of the trip. [Subcategory- Word Problems]
+        </p>
+        <p>
+            5. Given: <span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">256x<sup>3</sup>+13</span>
+            </span> = 11. For real values of x, compute all possible real values of <span style="white-space: nowrap;">
+            &radic;<span style="text-decoration:overline;">80x<sup>2</sup>-9</span></span>. [Subcategory- Exponents and Radicals]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> 84</p>
+        <p class="red"><b>2.</b> 10</p>
+        <p class="red"><b>3.</b> <sup>13</sup>&frasl;<sub>15</sub></p>
+        <p class="red"><b>4.</b> 48 mph</p>
+        <p class="red"><b>5.</b> 6</p>
+        </div>
+        <h2>
+            Algebra 2
+        </h2>
+        <p>
+            1. Given: (1-i)<sup>9</sup> = x + yi , where x and y are integer constants.
+            Compute <span style="white-space: nowrap;">&#8732;<span style="text-decoration:overline;">x-y</span>
+            </span>. [Subcategory- Complex Numbers (no Trig)]
+        </p>
+        <p>
+            2. Solve for x over the reals. If necessary, express your answer as a simplifed radical.
+            log<sub>5</sub> 3125 - 3log<sub>7</sub> x+ 2log<sub>7</sub> x = <sup>(log<sub>5</sub> x)</sup>&frasl;<sub>(log<sub>5</sub> 7)</sub> + log<sub>7</sub> 2401
+            [Subcategory- Log & Exponential Functions]
+        </p>
+        <p>
+            3. A decreasing geometric progression has a first term of 12(2<sup>10</sup>) and a common ratio of &frac14;.
+            How many terms in this progression are integers? [Subcategory- Sequences and Series]
+        </p>
+        <p>
+            4. How many nonzero integer values of x over the closed interval [−10,10] satisfy |x + 5| > 2? [Subcategory- Inequalities and Absolute Value]
+        </p>
+        <p>
+            5. The fact that 8 + 64 = 72 shows that the condition “the sum of a number and its square equals 72” has a positive integer solution.
+            What is the negative integer solution? [Subcategory- Quadratic Equations/Quadratic Theory]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> 2<span style="white-space: nowrap;">&#8732;<span style="text-decoration:overline;">2</span></p>
+        <p class="red"><b>2.</b> <span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">7</span></span></p>
+        <p class="red"><b>3.</b> 7</p>
+        <p class="red"><b>4.</b> 15</p>
+        <p class="red"><b>5.</b> -9</p>
+        </div>
+        <h2>
+            Elementary Number Theory/Arithmetic
+        </h2>
+        <p>
+            1. a, b, and c are three consecutive odd positive integers, none of which are prime. Compute the minimum value of a + b + c.
+        </p>
+        <p>
+            2. Compute the ordered pair (a, b), if the eight-digit base ten integer N = 437213ab is divisible by 72.
+        </p>
+        <p>
+            3. It is a hot day at the beach, and Bud and Lou have come unprepared. They each dig into their pockets, and find some coins to buy some water.
+            Together they have $2 in change. Using only his money, Bud is $1 short of the cost of a bottle of water.
+            Using only his money, Lou is $1.50 short. Let b, l and c denote the amount of money Bud brought, the amount of money Lou brought,
+            and the cost of a bottle of water, respectively. If all amounts are in cents, determine the ordered triple (b, l, c).
+        </p>
+        <p>
+            4. A box contains 5 red marbles, 6 white marbles and 9 blue marbles. Two marbles are taken at random from this box without replacement.
+            The probability that at least one of the selected marbles is red is <sup>A</sup>&frasl;<sub>B</sub> , a reduced fraction. Determine the ordered pair (A, B).
+            [Subcategory- Probability and Binomial Theorem]
+        </p>
+        <p>
+            5. Compute the sum of the coefficients of the x<sup>4</sup>y<sup>3</sup> -term and the x<sup>3</sup>y<sup>4</sup> -term in the expansion of
+            (4x + <sup>y</sup>&frasl;<sub>2</sub>)<sup>7</sup>. [Subcategory- Probability and Binomial Theorem]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> 279</p>
+        <p class="red"><b>2.</b> (5, 2)</p>
+        <p class="red"><b>3.</b> (125, 75, 225)</p>
+        <p class="red"><b>4.</b> (17, 38)</p>
+        <p class="red"><b>5.</b> 1260</p>
+        </div>
+        <h2>
+            Geometry
+        </h2>
+        <p>
+            1. A water tank, in the shape of an inverted right circular cone, has a diameter of 12 meters and
+            a height of 10 meters. If the height of the water in the tank is 3 meters, compute the exact
+            amount of water (in m<sup>3</sup>) in the tank. [Subcategory- Volumes and Surfaces]
+        </p>
+        <p>
+            2. The measures of the angles in a scalene triangle are in a 7:10:13 ratio.
+            The altitude from the vertex of the largest angle divides that angle into an a : b ratio,
+            where a < b. Compute the ordered pair of integers (a,b). [Subcategory- Angles about a point, triangles, and parallels]
+        </p>
+        <p>
+            3. An equilateral triangle is inscribed in a circle whose circumference is 16π. Compute the
+            perimeter of this triangle. [Subcategory- Circles]
+        </p>
+        <p>
+            4. Circle O is tangent to the positive x-axis, and has y-intercepts at B(0,2) and C(0,18).
+            Its equation may be expressed in the form (x-h)<sup>2</sup>+(y-k)<sup>2</sup> = r<sup>2</sup>.
+            Compute the ordered triple (h,k,r). [Subcategory- Coordinate Geometry of Lines and Circles]
+        </p>
+        <p>
+            5. The circle O has equation x<sup>2</sup>+y<sup>2</sup>-12x+8y+27=0.
+            O intersects the x-axis m times and the y-axis n times. Compute the ordered pair (m,n).
+            [Subcategory- Analytic Geometry]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> 3.24π</p>
+        <p class="red"><b>2.</b> (5, 8)</p>
+        <p class="red"><b>3.</b> 24<span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">3</span></span></p>
+        <p class="red"><b>4.</b> (6,10,10)</p>
+        <p class="red"><b>5.</b> (2,0)</p>
+        </div>
+        <h2>
+            Trigonometry
+        </h2>
+        <p>
+            1. Compute cos(<sup>nπ</sup>&frasl;<sub>6</sub>) , if n is the smallest prime greater than 89. [Subcategory- Functions of Special Angles]
+        </p>
+        <p>
+            2.The hypotenuse <span style="text-decoration:overline;">AB</span> of right triangle ABC has length 6, and the legs have lengths
+            in a ratio of 3:4. If A is the smaller acute angle in ∆ABC, compute sin A + cos B. [Subcategory- Right angle problems, Laws of Sine and Cosine]
+        </p>
+        <p>
+            3. The maximum value of sin(3x + A&deg;) occurs for x = 25&deg;. For what minimum positive value of x (in degrees) does sin(3x + A&deg;) = &frac12;?
+            [Subcategory- Equations having a reasonable number of solutions]
+        </p>
+        <p>
+            4. Compute the value of N, if N is coterminal with -<sup>1024π</sup>&frasl;<sub>3</sub> and 0 ≤ N < 2π. [Subcategory- Identities and/or Inverse Functions]
+        </p>
+        <p>
+            5. Point P lies on the horizontal line y = Sin<sup>-1</sup>(a) + Cos<sup>-1</sup>(b), where a and b are constants in the respective domains of these inverse functions.
+            Compute the maximum distance from P to the x-axis.[Subcategory- Identities and/or Inverse Functions]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> +<sup><span style="white-space: nowrap;">&radic;<span style="text-decoration:overline;">3</span></span></sup>&frasl;<sub>2</sub></p>
+        <p class="red"><b>2.</b> <sup>6</sup>&frasl;<sub>5</sub></p>
+        <p class="red"><b>3.</b> 5</p>
+        <p class="red"><b>4.</b> <sup>2π</sup>&frasl;<sub>3</sub></p>
+        <p class="red"><b>5.</b> <sup>3π</sup>&frasl;<sub>2</sub></p>
+        </div>
+        <h2>
+            Team Round
+        </h2>
+        <p>
+            1. In a rectangular solid with dimensions 3 x 4 x 6, a plane is parallel to opposite faces with the
+            smallest area, and is perpendicular to the other two pairs of opposite faces. If the ratio of the
+            total surface areas of the two rectangular solids formed by this plane is 13 : 20, compute the
+            ratio of their volumes. [Geometry: Volumes and Surfaces]
+        </p>
+        <p>
+            2. Let N = x<sup>2</sup> + xy - 6y<sup>2</sup> - 8x + 6y + 12. If x = y, then N = 0 for x = a and x = b, where a < b.
+            If N = 0 and y = t = a + b, then x = c or x = d, where c < d. Compute the ordered quadruple (a, b, c, d). [Algebra 1: Factoring and its applications]
+        </p>
+        <p>
+            3. Start with a 3-4-5 right triangle. Construct a sequence of right triangles, each with integer
+            sides, which have a short leg with the same length as the hypotenuse of its predecessor. In
+            each triangle, the lengths of the hypotenuse and the longer leg differ by 1. Compute the
+            perimeter of the 4th triangle in this sequence. [Trigonometry: Right angle problems, Laws of Sine and Cosine]
+        </p>
+        <p>
+            4. The product (7x-5)(5x-16) has the same middle term as (15x-A)(x-B). Let N equal the product AB, where A and B are both single-digit positive integers.
+            Factor 5(N+1)x<sup>2</sup>-Nx-7(N+5) as the product of two binomials in x with integer coefficients. [Algebra 2: Quadratic Equations/Quadratic Theory]
+        </p>
+        <p>
+            5. When P(x) is divided by x + 2, the remainder is 62, and when P(x) is divided by x + 4, the
+            remainder is 68. Find the remainder when P(x) is divided by (x + 2)(x + 4). [Elementary Number Theory/Arithmetic]
+        </p>
+        <button onclick="Answers()">Show/Hide Answers</button>
+        <div class="answers">
+        <p class="red"><b>1.</b> &frac12;</p>
+        <p class="red"><b>2.</b> (-2, <sup>3</sup>&frasl;<sub>2</sub>, 1, <sup>15</sup>&frasl;<sub>2</sub>)</p>
+        <p class="red"><b>3.</b> 7310</p>
+        <p class="red"><b>4.</b> (19x + 23)(5x – 7)</p>
+        <p class="red"><b>5.</b> −3x + 56</p>
+        </div>
+    </body>
+</html>
